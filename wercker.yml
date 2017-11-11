@@ -12,6 +12,7 @@ install-oci-provider:
         name: install-oci-provider
         code: |
           echo "Installing OCI provider!"
+          echo "Terraform version $(terraform -v)"
           
 build-infrastructure:          
   steps:
